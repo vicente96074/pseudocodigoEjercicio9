@@ -1,0 +1,34 @@
+Inicio pseudocodigoEjercicio9
+	
+	Variable temperatura1
+	Variable temperatura2
+	Variable sumaTemperatura1 = 0
+	Variable sumaTemperatura2 = 0
+	Variable vecesTemperatura1 = 0
+	Variable vecesTemperatura2 = 0
+	Variable promedioTemperatura1
+	Variable promedioTemperatura2
+	
+	hacer
+		Escribir "Ingrese la temperatura1: "
+		Leer temperatura1
+		Escribir "Ingrese la temperatura2: "
+		Leer temperatura2
+		
+		Si (temperatura1>=5 && emperatura1<=15) hacer
+			sumaTemperatura1 = sumaTemperatura1 + temperatura1
+			vecesTemperatura1 = vecesTemperatura1 + 1
+		FinSi
+		
+		Si (temperatura2>=5 && emperatura2<=15) hacer
+			sumaTemperatura2 = sumaTemperatura2 + temperatura2
+			vecesTemperatura2 = vecesTemperatura2 + 1
+		FinSi
+	Repetir mientras(temperatura1 != 0)
+	
+	promedioTemperatura1 = sumaTemperatura1/vecesTemperatura1
+	promedioTemperatura2 = sumaTemperatura2/vecesTemperatura2
+	
+	Escribir "El promedio de la temperatura1 es: " promedioTemperatura1
+	Escribir "El promedio de la temperatura2 es: " promedioTemperatura2
+Fin
